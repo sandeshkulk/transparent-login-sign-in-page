@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(/images/bg-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  /* border: 12px solid skyblue; */
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+.container h1 {
+  color: rgb(1, 10, 1);
+  font-size: 50px;
+  margin-bottom: 45px;
+  /* border-bottom: 1.5px solid rgb(25, 115, 63); */
+  padding: 13px 0;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  text-align: center;
+
+}
+.box {
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.box input {
+  /* color: black; */
+  width: 75%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin: 5px 0px;
+  border-radius: 25px;
+  border: 3px solid black;
+  text-align: center;
+  padding: 12px 0;
+  background-color: transparent;
+}
+
+.box i {
+  width: 25px;
+
+  text-align: center;
+  padding-top: 8px;
+}
+
+.btn {
+  background-color: rgba(203, 156, 85, 0);
+  cursor: pointer;
+  outline: none;
+  width: 25%;
+  margin: 15px 0 0 35px;
+  padding: 6px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
